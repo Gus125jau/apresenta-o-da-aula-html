@@ -1,0 +1,92 @@
+Algoritmo "Comissãovendedor"
+
+Var
+   qnt_mussarela, qnt_mortadela, qnt_presunto, qnt_peito_peru: real
+
+
+   valor_mussarela, valor mortadela, valor_presunto, valor_peito_peru: real
+
+
+   comissao_mussarela, comissao mortadela, comissao_presunto, comissao_peito_peru: real
+
+
+   total_vendas, total_comissao: real
+
+   Início
+
+   Escreva("Informe a quantidade de mussarela vendida")
+   Leia(qtn_mussarela)
+   Escreva("Informe a quantidade de mortadela vendida")
+   Leia(qtn_mortadela)
+   Escreva("Informe a quantidade de presunto vendida")
+   Escreva("Informe a quantidade de peito de peru:")
+   Leia(qtn_peito_peru)
+
+
+   //Calculando os valores vendidos pelo vendedor
+   valor_mussarela <- qtn_mussarela * 56.2
+   valor_mortadela <- qtn_mortadela * 25.9
+   valor_presunto  <- qtn_presunto * 78.2
+   valor_peito_peru <- qtn_peito_peru * 89.6
+
+   //Calculando a comissao do vendedor
+   comissão_mussarela <- valor_mussarela * 0.03
+   comissão_mortadela <- valor_mortadela * 0.08
+   comissao_presunto <- valor presunto * 0.05
+   comissão_peito_peru <- valor_peito_peru * 0.01
+
+   // Calculando a comissao total por acumuladores
+   total_comissao <- comissao_mussarela
+   total_comissao <- total comissao + comissao_mortadela
+   total_comissao <- total comissao + comissao_presunto
+   total_comissao <- total comissao + coissao_peito_peru
+
+   // Calculando o valor total das vendas com acumulador
+   total_vendas <- valor_mussarela
+   total_vendas <- total_vendas + valor_mortadela
+   total_vendas <- total_vendas + valor_presunto
+   total_vendas <- total_vendas + valor_peito_peito_peru
+
+   Escreva("_____________________________________________")
+   Escreva("Mussarela Vendida")
+   Escreva("Quantidade: ", qnt_mussarela, "Kg")
+   Escreva("Valor total: R$ ", valor_mussarela:2:2)
+   Escreva("Comissao: R$ ", comissao_mussarela:2:2)
+   Escreva("____________________________________________")
+ 
+   Escreva("Mortadela Vendida")
+   Escreva("Quantidade: ", qtn_mortadela, "kg")
+   Escreva("Valor total: R$ " , valor mortadela:2:2)
+   Escreva("Comissao: R$ ", comissao_mortadela:2:2)
+   Escreva("______________________________________________")
+   
+   Escreva("Peito de Peru Vendido")
+   Escreva("Quantidade: ", qtn_peito_peru, "kg")
+   Escreva("Valor total: R$ " , valor peito_peru:2:2)
+   Escreva("Comissao: R$ ", comissao_peito_peru:2:2)
+   Escreva("_____________________________________________")
+
+
+   Escreva("VALORES TOTAIS")
+   Escreva("Total do Valor Vendido: R$ ", total_vendas:2:2)
+   Escreva("Total da Comissao: R$ ", total_comissao:2:2)
+   Escreva("________________________________________")
+
+   Fimalgoritmo
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
