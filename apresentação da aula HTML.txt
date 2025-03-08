@@ -1,92 +1,44 @@
-Algoritmo "Comissãovendedor"
+<!DOCTYPE html>
+<html lang="pt-br>"
 
-Var
-   qnt_mussarela, qnt_mortadela, qnt_presunto, qnt_peito_peru: real
+<head>
+    <meta charset="utf-8>
+    <meta name=viewport" content="with=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="descrition" content="sou uma pagina web em html">
+    <meta name="keywords" content="palavras, chave, que, tem, a ver, com o, conteudo">
 
-   valor_mussarela, valor mortadela, valor_presunto, valor_peito_peru: real
+    <meta name="author" content "quem e voce?" />
+    <meta name="rating" content="general" />
+    <meta name="robots" content="index, folllow" />
+    <meta name="revisit-after" content="14 days" />
 
+    <title>Primeira página HTML</title>
+    <link rel="shortcut icon" href="img/favicon" />
 
-   comissao_mussarela, comissao mortadela, comissao_presunto, comissao_peito_peru: real
+</head>
 
+<body>
 
-   total_vendas, total_comissao: real
-
-   Início
-
-   Escreva("Informe a quantidade de mussarela vendida")
-   Leia(qtn_mussarela)
-   Escreva("Informe a quantidade de mortadela vendida")
-   Leia(qtn_mortadela)
-   Escreva("Informe a quantidade de presunto vendida")
-   Escreva("Informe a quantidade de peito de peru:")
-   Leia(qtn_peito_peru)
-
-
-   //Calculando os valores vendidos pelo vendedor
-   valor_mussarela <- qtn_mussarela * 56.2
-   valor_mortadela <- qtn_mortadela * 25.9
-   valor_presunto  <- qtn_presunto * 78.2
-   valor_peito_peru <- qtn_peito_peru * 89.6
-
-   //Calculando a comissao do vendedor
-   comissão_mussarela <- valor_mussarela * 0.03
-   comissão_mortadela <- valor_mortadela * 0.08
-   comissao_presunto <- valor presunto * 0.05
-   comissão_peito_peru <- valor_peito_peru * 0.01
-
-   // Calculando a comissao total por acumuladores
-   total_comissao <- comissao_mussarela
-   total_comissao <- total comissao + comissao_mortadela
-   total_comissao <- total comissao + comissao_presunto
-   total_comissao <- total comissao + coissao_peito_peru
-
-   // Calculando o valor total das vendas com acumulador
-   total_vendas <- valor_mussarela
-   total_vendas <- total_vendas + valor_mortadela
-   total_vendas <- total_vendas + valor_presunto
-   total_vendas <- total_vendas + valor_peito_peito_peru
-
-   Escreva("_____________________________________________")
-   Escreva("Mussarela Vendida")
-   Escreva("Quantidade: ", qnt_mussarela, "Kg")
-   Escreva("Valor total: R$ ", valor_mussarela:2:2)
-   Escreva("Comissao: R$ ", comissao_mussarela:2:2)
-   Escreva("____________________________________________")
- 
-   Escreva("Mortadela Vendida")
-   Escreva("Quantidade: ", qtn_mortadela, "kg")
-   Escreva("Valor total: R$ " , valor mortadela:2:2)
-   Escreva("Comissao: R$ ", comissao_mortadela:2:2)
-   Escreva("______________________________________________")
-   
-   Escreva("Peito de Peru Vendido")
-   Escreva("Quantidade: ", qtn_peito_peru, "kg")
-   Escreva("Valor total: R$ " , valor peito_peru:2:2)
-   Escreva("Comissao: R$ ", comissao_peito_peru:2:2)
-   Escreva("_____________________________________________")
-
-
-   Escreva("VALORES TOTAIS")
-   Escreva("Total do Valor Vendido: R$ ", total_vendas:2:2)
-   Escreva("Total da Comissao: R$ ", total_comissao:2:2)
-   Escreva("________________________________________")
-
-   Fimalgoritmo
+   <!-- Este e um exemplo de comentario-->
+   <h1>Página em HTML Semântico</h1>
 
 
 
-   
+    <p>
+    Isso significa que cada elemento html
+    <spam>tem um significaddo especifico</spam>
+    entendivel pelas máquinas. </br>
+
+   </p>
+   <h2>o texto vai diminuindo o tamanho</h2>
+   <h3>Conforme o número do H</h3>
+   <h4>Também diminui</h4>
+   <h5>Isso diz que o navegador que é um subtítulo</h5>
+   <h6>As tags são títulos, onde o número aumenta</h6>
 
 
 
+</body>
 
-
-
-
-
-
-
-
-
-
+</html>
